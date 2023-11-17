@@ -30,6 +30,13 @@ public class Main {
 		}
 		
 		System.out.println(occorrenza);
+		
+		for (Character key : occorrenza.keySet()) {
+			
+			int value = occorrenza.get(key);
+			System.out.println(key + " --> " + value);
+		}
+	
 
 	}
 
